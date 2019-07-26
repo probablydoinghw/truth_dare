@@ -1,0 +1,97 @@
+
+body {
+  background-color: red;
+  background-size: 100%;
+  background-image: url(https://i.pinimg.com/originals/73/ac/31/73ac3138ab8b681e81c8f71b6733f345.gif);
+
+}
+
+.everything {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  /* border: 4px solid green; */
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+#logo {
+  /* display: flex;
+  justify-content: center; */
+  text-align: center;
+  border-radius: 20%;
+  width:70%;
+  /* border: 3px solid orange; */
+  font-family: 'Metal Mania', cursive;
+  font-size: 400%;
+  color: white;
+  background-image: url(https://media.tenor.com/images/0881da453003e04cad2ed60203767edc/tenor.gif);
+
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  font-family: 'Metal Mania', cursive;
+  margin-top: 5%;
+  /* border: 3px solid orange; */
+}
+.truthbutton {
+  padding: 40px;
+  margin-right: 10%;
+  border-radius: 10%;
+  font-family: 'Metal Mania', cursive;
+  font-size: 200%;
+  color: white;
+  background-image: url(http://25.media.tumblr.com/tumblr_lc9rcyEKfQ1qb2cp4o1_500.gif);
+  background-position: bottom;
+}
+
+/* .truthContainer {
+ display: flex;
+ flex-direction: column;
+} */
+
+/* .truthbox {
+  display: flex;
+  flex-direction: column;
+} */
+
+.darebutton {
+  padding: 40px;
+  border-radius: 10%;
+  font-family: 'Metal Mania', cursive;
+  font-size: 200%;
+  color: white;
+  background-image: url(https://media1.tenor.com/images/3b5ca57b410447ef0f0761fb6dc7c385/tenor.gif?itemid=11364756);
+  background-position: center;
+}
+
+.passwordbox {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5%;
+  /* border: 3px solid orange; */
+  /* margin-top: 10%; */
+}
+
+.secretcode {
+  /* display: flex;
+  justify-content: center; */
+  padding: 20px;
+  border-radius: 10%;
+  font-family: 'Metal Mania', cursive;
+  font-size: 100%;
+  width: 19%;
+  /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbwlkuy22bguo-ugUrwFTUPR5zLIg_hoLbu_TzZNYthiBug--FSA); */
+
+}
+
+img {
+  height: 25%;
+  width: auto;
+}
